@@ -38,8 +38,8 @@ seconds.place(relx=0.5, rely=0.7, anchor=tk.CENTER)
 minutes.place(relx=0.5, rely=0.3, anchor=tk.CENTER)
 
 
-if os.path.isfile('pathes.txt'):
-    pathstr = open('pathes.txt')
+if os.path.isfile('path.txt'):
+    pathstr = open('path.txt')
     allowpath = pathstr.read()
     if os.path.isfile(allowpath):
         reader = open(allowpath, 'r')
