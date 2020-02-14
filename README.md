@@ -1,6 +1,6 @@
 # logout-timer
 ### Simple python app that signs you out.
-
+#### !Russian notifications!
 Requirements:
 * python3
 * win10toast

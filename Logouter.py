@@ -47,7 +47,7 @@ if os.path.isfile('path.txt'):
         reader.close()
         countdown(int(ptime))
     else:
-        countdown(100)
+        countdown(10)
         toaster.show_toast("Нет разрешения","Осталось 10 секунд",icon_path='icon.ico',duration=5,threaded=True)
 
 mainWindows.protocol("WM_DELETE_WINDOW", on_closing)
